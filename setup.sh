@@ -5,6 +5,8 @@ apt install emacs -y
 echo '\n' >> $HOME/.bashrc
 echo 'alias e="emacs -nw"' >> $HOME/.bashrc
 echo '\n' >> $HOME/.bashrc
+cp ./.emacs $HOME/.
+cp ./mistyday-theme.el $HOME/.emacs.d/.
 
 # Ruby
 apt install ruby -y
