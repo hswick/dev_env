@@ -17,4 +17,4 @@ There are two things you can do about this warning:
     (add-to-list 'package-archives (cons "gnu" (concat proto "://elpa.gnu.org/packages/")))))
 (package-initialize)
 
-(load-theme 'mistyday)
+(load-theme 'mistyday t)
