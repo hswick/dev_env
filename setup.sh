@@ -1,4 +1,5 @@
 apt update && sudo apt upgrade
+sudo apt install curl
 
 BASE=$HOME/.bashrc
 
@@ -22,6 +23,9 @@ sudo apt install ruby -y
 
 # Python
 sudo apt install pipenv
+
+# Set Prompt
+echo 'PS1="\u[\W]: "' >> $BASE
 
 # Go installation
 #wget https://dl.google.com/go/go1.12.3.linux-amd64.tar.gz

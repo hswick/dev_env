@@ -18,3 +18,5 @@ There are two things you can do about this warning:
 (package-initialize)
 
 (load-theme 'mistyday t)
+(setq make-backup-files nil) ; stop creating backup~ files
+(setq auto-save-default nil) ; stop creating #autosave# files
